@@ -1,5 +1,6 @@
 var sortNumber = function(number){
     number.sort(function (a,b){
+// ここが違う
         if (a == b){
             return 0;
         }
